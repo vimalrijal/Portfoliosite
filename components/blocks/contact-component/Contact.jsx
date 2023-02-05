@@ -4,23 +4,9 @@ import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import { ImTwitter } from "react-icons/im";
 import { useRef } from "react";
-import emailjs from "emailjs-com";
 
 const Contact = () => {
   const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm(
-      "service_aoqk99s",
-      "template_l9hcszp",
-      form.current,
-      "w62wWghWyETUW2IOn"
-    );
-
-    e.target.reset();
-  };
 
   return (
     <section id="contact">
