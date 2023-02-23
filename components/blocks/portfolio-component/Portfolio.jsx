@@ -18,7 +18,7 @@ const data = [
     image: IMG1,
     title: "Maqro Google Landing page",
     github: "https://github.com",
-    demo: "https://maqro.com.au/research-portal/,
+    demo: "https://maqro.com.au/research-portal/",
   },
   {
     id: 2,
